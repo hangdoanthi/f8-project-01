@@ -62,14 +62,6 @@ a {
     padding-top: 26px;
     background: #e6f0ff;
 }
-.hero-wrap {
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    background-color: #e6f0ff;
-    height: calc(100vh - 90px);
-}
 
 .navbar {
     display: flex;
@@ -109,7 +101,16 @@ a {
     border-radius: 8px;
 }
 
-.hero .sub-title {
+.hero-wrap {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #e6f0ff;
+    height: calc(100vh - 90px);
+}
+
+.hero-wrap .sub-title {
     font-weight: 500;
     font-size: 1.8rem;
     line-height: 1.5;
@@ -118,7 +119,7 @@ a {
     margin-top: 130px;
 }
 
-.hero .title {
+.hero-wrap .title {
     width: 51%;
     font-weight: 700;
     font-size: 6.3rem;
@@ -127,7 +128,7 @@ a {
     margin-top: 8px;
 }
 
-.hero .desc {
+.hero-wrap .desc {
     width: 50%;
     font-weight: 400;
     font-size: 1.8rem;
